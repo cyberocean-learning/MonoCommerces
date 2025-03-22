@@ -1,0 +1,5 @@
+{
+  "url": "https://admin-simple-monocommerce.cyberocean.net",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2N2RhOWE1Mzk4NmY3NjViY2U1ODFkZTYiLCJrZXkiOjEsImV4cCI6MTc0NzU2MzczMzIwMH0.E-EPg0qsa3Ez07s-P4NI-cWedVUkoDNyl5864_ogEBs",
+  "openai_key": "<OPTIONAL-your-openai-token>"
+}

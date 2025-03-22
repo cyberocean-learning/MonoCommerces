@@ -1,0 +1,9 @@
+{
+  "engine_version": "2",
+  "pluginVersion": "0.0.1",
+  "name": "Monocommerce",
+  "key": "monocommerce",
+  "description": "A plugin for the KhaCloud platform",
+  "icon": "",
+  "permissions": {}
+}

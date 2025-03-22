@@ -1,0 +1,13 @@
+{
+  "timeout": 30000,
+  "chunks": [ // You can add as many chunks as you want (Order of chunks is important, the next chunk will exclude the paths in the previous chunks)
+    // { // Example of making a chunk for node_modules to make upload faster
+    //   "path": "./node_modules",
+    //   "name": "node_modules"
+    // },
+    {
+      "path": ".",
+      "name": "default"
+    }
+  ]
+}
