@@ -1,0 +1,59 @@
+{
+  "mainMenu": [
+    {
+      "icon": {
+        "name": "/images/layers.svg",
+      },
+      "title": "Collections",
+      "to": "/collections",
+      "key": "ecomx_collections",
+      "position": "after dashboard",
+      "roles": "admin developer root"
+    },
+    {
+      "icon": {
+        "name": "/images/boxes.svg",
+      },
+      "title": "Products",
+      "to": "/products",
+      "key": "ecomx_products",
+      "position": "after ecomx_collections",
+      "roles": "admin developer root"
+    },
+    {
+      "icon": {
+        "name": "/images/forklift.svg",
+      },
+      "title": "Variants",
+      "to": "/variants",
+      "key": "ecomx_variants",
+      "position": "after ecomx_products",
+      "roles": "admin developer root"
+    },
+    {
+      "icon": {
+				"name": "/images/shopping-cart.svg",
+			},
+      "title": "Orders",
+      "to": "/orders",
+      "key": "ecomx_orders",
+      "position": "after ecomx_variants",
+      "roles": "admin developer root"
+    }
+  ],
+  "profileMenu": [],
+  "hideMainMenu": [
+    {
+      "key": "collections",
+      "roles": "*"
+    },
+    {
+      "key": "products",
+      "roles": "*"
+    },
+    {
+      "key": "orders",
+      "roles": "*"
+    },
+  ]
+}
